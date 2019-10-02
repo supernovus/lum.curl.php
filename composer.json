@@ -1,0 +1,25 @@
+{
+  "name": "lum/lum-curl",
+  "description": "Lum Curl wrapper",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name": "Timothy Totten",
+      "email": "supernovus@gmail.com",
+      "role": "Original Author"
+    }
+  ],
+  "require":
+  {
+    "php": "^7.0",
+    "ext-curl": "*"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Lum\\": "lib"
+    }
+  }
+}
